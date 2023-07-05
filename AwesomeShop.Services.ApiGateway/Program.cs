@@ -11,6 +11,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddOcelot();
 
+builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
+    .AddJsonFile("appsettings.json", false)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
+    .AddJsonFile("configuration.json")
+    .AddEnvironmentVariables();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -20,7 +27,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
