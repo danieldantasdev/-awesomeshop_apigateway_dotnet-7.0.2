@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace AwesomeShop.Services.ApiGateway.Controllers;
+namespace AwesomeShop.Services.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
