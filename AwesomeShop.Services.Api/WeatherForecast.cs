@@ -1,4 +1,4 @@
-namespace AwesomeShop.Services.ApiGateway;
+namespace AwesomeShop.Services.Api;
 
 public class WeatherForecast
 {

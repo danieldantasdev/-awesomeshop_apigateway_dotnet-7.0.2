@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.ApiGateway", "AwesomeShop.Services.ApiGateway\AwesomeShop.Services.ApiGateway.csproj", "{49FEB597-49F9-4874-A892-C3C8EE46A777}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeShop.Services.Api", "AwesomeShop.Services.Api\AwesomeShop.Services.Api.csproj", "{49FEB597-49F9-4874-A892-C3C8EE46A777}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
